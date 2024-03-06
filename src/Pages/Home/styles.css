@@ -1,0 +1,393 @@
+#app {
+    height: 100%;
+}
+
+html,
+body {
+    position: relative;
+    height: 100%;
+}
+
+body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.sliderBox {
+    display: flex;
+    align-items: center;
+    text-align: start;
+    justify-content: space-between;
+    width: Fill (1, 440px);
+    height: 599px;
+    padding: 96px, 144px, 96px, 144px;
+    gap: 104px;
+
+}
+
+.sliderBox .img-box {
+    max-width: 391px;
+    height: 407px;
+}
+
+.sliderBox .img-box img {
+    width: 100%;
+}
+
+.sliderBox h1 {
+    font-family: Inter;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 76px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.sliderBox span {
+    color: #4CAF4F;
+}
+
+.sliderBox p {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 10px;
+
+}
+
+
+#lessons {
+    margin-bottom: 20px;
+}
+
+#client {
+    width: Fixed (1, 440px);
+    min-height: 190px;
+    padding: 0px, 144px, 0px, 144px;
+    gap: 16px;
+
+}
+
+
+
+#community .text-header {
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#community .text-header h2,
+#client h2 {
+    max-width: 580px;
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+#community .text-header p,
+#client p {
+    margin: auto;
+
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+#client .client-box {
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+#client .client-logo {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#client .client-logo img {
+    margin: 10px;
+}
+
+#community .card-container {
+    margin-top: 20px;
+    padding-top: 10px;
+}
+
+.main-card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}
+
+.img-box {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+/* unlock section */
+
+#unlock {
+    margin: 20px 0px;
+    padding: 20px 0px;
+}
+
+
+#unlock h2 {
+    font-family: Inter;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+#unlock p {
+    font-family: Inter;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+/* unlock section */
+
+/* achievements */
+
+#achievements {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 250px;
+}
+
+#achievements h2 {
+    font-family: Inter;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+#achievements p {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+#achievements h2 span {
+    color: #4CAF4F;
+}
+
+#achievements .count-box {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 10px 0px;
+}
+
+#achievements .count-box h2 {
+    font-family: Inter;
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 0;
+
+}
+
+#achievements .count-box p {
+    font-family: Inter;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 0;
+}
+
+/* achievements */
+/* customers */
+
+#customers {
+    margin: 20px 0px;
+    padding: 20px 0px;
+
+}
+#customers .img-box{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.customers-logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/* customers */
+
+@media screen and (max-width:992px) {
+
+    .sliderBox .img-box {
+        padding: 20px 0px 0px;
+        max-width: 351px;
+        height: 257px;
+    }
+
+    .sliderBox h1 {
+        font-family: Inter;
+        font-size: 35px;
+        font-weight: 500;
+        line-height: 40px;
+        text-align: left;
+    }
+
+    #community .text-header h2,
+    #client h2 {
+        font-size: 25px;
+        line-height: 27px;
+    }
+
+    #community .text-header p,
+    #client p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    #unlock h2 {
+        font-size: 25px;
+        line-height: 27px;
+    }
+
+    #unlock p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
+
+@media screen and (max-width:768px) {
+
+    #client .client-logo {
+        justify-content: center;
+    }
+
+    #community .text-header h2,
+    #client h2 {
+        font-size: 17px;
+        line-height: 20px;
+    }
+
+    #community .text-header p,
+    #client p {
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    #community .main-card h2 {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    #community .main-card p {
+        font-size: 11px;
+
+    }
+
+    #unlock {
+        text-align: center;
+    }
+
+    #unlock h2 {
+        font-size: 22px;
+        line-height: 27px;
+    }
+
+    #unlock p {
+        font-size: 12px;
+        line-height: 15px;
+    }
+}
+
+@media screen and (max-width:400px) {
+
+    .sliderBox .img-box {
+        padding: 20px 0px 0px;
+        max-width: 351px;
+        height: 257px;
+    }
+
+    .sliderBox h1 {
+        font-family: Inter;
+        font-size: 25px;
+        font-weight: 500;
+        line-height: 40px;
+        text-align: left;
+    }
+
+    .sliderBox p {
+        font-family: Inter;
+        font-size: 14px;
+    }
+}
